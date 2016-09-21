@@ -13,6 +13,8 @@ public class Main {
 		Ghibli gb = new Ghibli();
 		V6 gbTemp = (V6) gb.GetEngine();				//Casts EngineSuperClass to v6
 		System.out.println(gbTemp.GetFuelStarRating());
+		
+		//Test
 	}
 
 }
