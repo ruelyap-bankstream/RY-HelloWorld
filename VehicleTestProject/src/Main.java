@@ -15,6 +15,7 @@ public class Main {
 		System.out.println(gbTemp.GetFuelStarRating());
 		
 		//Test
+		System.out.println("This is a test");
 	}
 
 }
