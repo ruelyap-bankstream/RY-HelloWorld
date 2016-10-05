@@ -3,5 +3,15 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+	<!-- Definition for student bean -->
+	<bean 	id="student" 
+			class="com.tutorialspoint.Student"
+			scope="singleton"
+			>
+	
+		<property name="name" value="Zara"></property>
+		<property name="age" value="11"></property>
+	
+	</bean>
 
 </beans>
